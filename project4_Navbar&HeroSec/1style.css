@@ -1,0 +1,116 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    height: 92vh;
+    width: 100%;
+    background-color:#061532;
+}
+
+.nav{
+    height: 6vw;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+}
+
+.nav img{
+    height: 2.8vw;
+    margin-left: 2vw;
+
+}
+
+.nav-l{
+    color: white;
+    padding: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2vw;
+    font-size: 1.2vw;
+}
+
+.nav button{
+    background-color:rgb(242,41,91);
+    color: white;
+    border-radius: 6px;
+    padding: 1vw 1vw;
+    font-size: 1.1vw;
+    margin: 3vw 7vw;
+    border: none;
+}
+
+.content{
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 6vw;
+}
+
+.content h3{
+    font-size: 2vw;
+    text-transform: uppercase;
+    font-weight: 100;
+}
+
+.content h1{
+    font-size: 3vw;
+    text-align: center;
+    margin: 1vw 7vw;
+    line-height: 4.5vw;
+    font-weight: 650;
+    text-transform: capitalize;
+}
+
+.click button{
+    background-color: rgb(242,41,91);
+    color: white;
+    border-radius: 6px;
+    padding: 1vw 2.5vw;
+    font-size: 1.1vw;
+    border: none;
+
+}
+
+.click button1{
+    color: white;
+    border-radius: 6px;
+    padding: 1vw 3vw;
+    font-size: 1.1vw;
+    border: 1px solid white;
+}
+
+.content h5{
+    margin-top: 1vw;
+}
+
+.content img{
+    margin-top: 1.2vw;
+    height: 33vw;
+}
+
+.left img{
+    height: 18vw;
+    margin-left: 3vw;
+    position: absolute;
+    top: 26vw;
+}
+
+.right img{
+    height: 16vw;
+    position: absolute;
+    right: 17vw;
+    top:35vw;
+
+}
